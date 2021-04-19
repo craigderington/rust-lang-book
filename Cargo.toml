@@ -1,0 +1,13 @@
+[package]
+name = "rust-lang-book"
+version = "0.1.0"
+authors = ["Craig Derington <craigderington17@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "rust-lang-book"
+path = "main.rs"
